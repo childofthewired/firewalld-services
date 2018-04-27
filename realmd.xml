@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>SSSD with Realmd</short>
+  <description>realmd is a tool used to configure SSSD for direct integration with Windows Active Directory. Enable this option if you plan to integrate SSSD as a client for Active Dierctory.</description>
+  <port protocol="tcp" port="80"/>
+  <port protocol="tcp" port="88"/>
+  <port protocol="tcp" port="389"/>
+  <port protocol="udp" port="88"/>
+  <port protocol="tcp" port="464"/>
+  <port protocol="udp" port="464"/>
+  <port protocol="udp" port="123"/>
+  <port protocol="tcp" port="3268"/>
+</service>
